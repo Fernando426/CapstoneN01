@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: rgb(135, 252, 248);
+  font-family: Arial, sans-serif;
+}
+
+.upVar {
+  background-color: rgb(61, 61, 61) ;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+
+.Uplist {
+  /* background-color: #d86565; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  margin-right: 10%;
+
+}
+
+.upVar a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.logFaceAndTwit {
+  width: 0.8rem;
+}
+
+header {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.container-logo {
+  flex: 1;
+  text-align: center;
+}
+
+.logo {
+  width: 50%;
+  height: 23px;
+  max-width: 10rem;
+  height: auto;
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px #ff7220);
+}
+
+.navbar {
+  display: none;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+
+.nav-list :hover{
+color: #F07F7E
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #868686;
+}
+
+.mobile-navbar button {
+  display: block;
+  border: 0;
+  background-color: transparent;
+  margin-left: 1.2rem;
+}
+
+.mobile-navbar button img {
+  border: 0;
+  width: 2rem;
+  height: 2rem;
+}
+
+@media (min-width: 768px) {
+
+  .upVar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    height: 1.5rem;
+  }
+
+  .Uplist {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    margin-right: 10%;
+  }
+
+  .container-logo {
+    text-align: left;
+    margin-left: 15%;
+  }
+
+  .logo {
+    width: 100%;
+    max-width: 14rem;
+    height: auto;
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px #ff7220);
+  }
+
+  .navbar {
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+  }
+
+  .nav-list {
+    width: 100%;
+    /* background-color: #ffc2b7; */
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 4rem;
+    padding-right: 5%;
+  }
+
+  .mobile-navbar {
+    height: 50%;
+    display: none;
+  }
+
+  .header_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    padding: 0.5rem 1rem;
+    border: 5px solid #ec4327;
+    background-color:#fff;
+    color: #ff7220;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+}
+
+.home-about {
+  padding-top: 200px;
+  background-color: #fff;
+  /* background-image: url(/images/parthner/backgroun22.png); */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerHome-Page2 {
+  color: #ff2020;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  /* max-width: 70%; */
+}
+
+.home-Description {
+  margin-bottom: 4rem;
+  max-width: 70%;
+  color: #515151;
+}
+
+.home-date2 {
+  color: #595959;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  letter-spacing: -0.08em;
+}
+
+.home-location-info2 {
+  color: #868686;
+  margin-bottom: 10rem;
+}
+
+
+@media (min-width: 768px) {
+  .containerBoxs{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .boxs {
+    color:#ec4327;
+    width: 20%;
+    margin-right: 0.3rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+/* ______________parthner ___________ */
+
+.parthnerSection2 {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  background-color: #414246;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parthnerSection2 h2 {
+  color: #8F8F91;
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.parthnerLi img {
+  width: 80%;
+  filter: grayscale(100%);
+}
+
+.parthner-conten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.footer2 {
+  display: flex;
+  padding: 4rem;
+  width: 100%;
+  background-color: #fff;
+}
+
+.footer2 img {
+  filter: grayscale(100%) brightness(0);
+  width: 8rem;
+  margin-right: 10%;
+}
+
+/* ______________parthner ___________ */
+
+@media (min-width: 768px) {
+  .parthnerSection2 {
+    display: none;
+  }
+
+  .footer2 {
+    background-color: #2E2E2E;
+    color: #fff;
+    display: flex;
+  }
+
+  .footer2 img {
+    width: 10rem;
+    margin-right: 10%;
+    filter: invert(100%);
+  }
+}
+
+/* _________LogoAboutSection ___________ */
+
+.logoAboutSection {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+.logoAboutSection h2 {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+
+.logoAboutSection h4 {
+  font-size: 1.2rem;
+  width: 80%;
+  color: #515151;
+  text-align: center;
+}
+
+.logoAboutSection img {
+  font-size: 1.2rem;
+  width: 40%;
+  margin-bottom: 6rem;
+}
+
+
+.historySection {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.historySection h2 {
+  font-size: 2rem;
+}
+
+.historySection h4 {
+  width: 80%;
+  font-size: 1.5rem;
+  color: #414246;
+}
+
+.imageHistory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageHistory img {
+  width: 50%;
+  height: auto;
+  margin-left: 1rem;
+  filter: brightness(1) hue-rotate(50deg);
+  margin-bottom: 4rem;
+}

@@ -1,0 +1,184 @@
+.DinamicsSection {
+  background-color: rgb(255, 150, 4);
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr; /* Una columna de ancho automático */
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; /* Dos filas de altura automática */
+  gap: 10px; /* Espacio entre elementos */
+  padding: 20px;
+}
+
+.item {
+  background-color: #f0f0f0;
+  display: flex;
+}
+
+.img-Character {
+  width: 100%;
+  max-width: 140px;
+  background-image: url(/images/tablero.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 50% 40%; /* Mantén el ancho proporcional y alto fijo */
+  padding-left: 0.8rem;
+  padding-top: 0.8rem;
+}
+
+.img-Character img {
+  width: 100%;
+  height: 80%;
+}
+
+.textContent {
+  width: 60%;
+  margin-left: 1rem;
+  padding-top: 0.7rem;
+}
+
+.textContent {
+  font-size: 1.5rem;
+}
+
+.textContent h5 {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #ec5242;
+}
+
+.textContent p {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  .DinamicsSection {
+    background-color: rgb(255, 150, 4);
+    background-color: #f0f0f0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .grid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px; /* Espacio entre elementos */
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  
+  .item {
+    background-color: #f0f0f0;
+    display: flex;
+  }
+  
+  
+  .img-Character {
+    width: 100%;
+    max-width: 140px;
+    background-image: url(/images/tablero.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 50% 40%; /* Mantén el ancho proporcional y alto fijo */
+    padding-left: 0.8rem;
+    padding-top: 0.8rem;
+  }
+  
+  .img-Character img {
+    width: 100%;
+    height: 80%;
+  }
+  
+  .textContent {
+    width: 60%;
+    margin-left: 1rem;
+    padding-top: 0.7rem;
+  }
+
+  .textContent {
+    font-size: 1.5rem;
+  }
+  
+  .textContent h5 {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #ec5242;
+  }
+  
+  .textContent p {
+    font-size: 0.8rem;
+  }
+  
+}
+
+
+
+/* ______________parthner ___________ */
+
+.parthnerSection {
+  display: none;
+}
+
+.footer {
+  display: none;
+
+}
+
+
+
+@media (min-width: 768px) {
+
+/* ______________parthner ___________ */
+
+.parthnerSection {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  background-color: #414246;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parthnerSection h2 {
+  color: #8F8F91;
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.parthnerLi img {
+  width: 80%;
+  filter: grayscale(100%);
+}
+
+.parthner-conten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+
+.footer {
+  display: flex;
+  padding: 4rem;
+  width: 100%;
+  background-color: #fff;
+}
+
+.footer img {
+  filter: grayscale(100%) brightness(0);
+  width: 8rem;
+  margin-right: 10%;
+}
+
+}
