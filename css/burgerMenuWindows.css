@@ -1,4 +1,5 @@
 .mobile-menu {
+  z-index: 3;
   color: #fff;
   position: fixed;
   height: 100%;

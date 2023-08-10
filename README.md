@@ -23,9 +23,9 @@
 - [📝 License](#license)
 
 
-# 📖 PORTFOLIO-MOBILE-WEBSITE <a name="about-project"></a>
+# 📖 CAPSTONE PROYECT <a name="about-project"></a>
 
-**[PORTFOLIO-MOBILE-WEBSITE]** is a proyect was created to exercise good code and version control practices in the area of ​​web development.
+**[CAPSTONE PROYECT Urban Art Festival Creativity in the Streets 2023]** is a proyect was created to exercise good code and version control practices in the area of ​​web development.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -115,12 +115,6 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-👤 **Ali Akbar Sazish**
-- GitHub: [@githubhandle](https://github.com/akbarsazish)
-- Twitter: [@twitterhandle](https://twitter.com/AliAkbarSazish1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-akbar-sazish/)
-
 👤 **Fernando Montes**
 
 - GitHub: [@Fernando426](https://github.com/Fernando426)
@@ -132,12 +126,6 @@ You can deploy this project using:
 - GitHub: [@JhonatanErosa](https://github.com/JhonatanErosa)
 - Twitter: [@erosa_c](https://twitter.com/erosa_c)
 - LinkedIn: [Jhonatan Ali Caamal Erosa](https://www.linkedin.com/in/jhonatan-ali-caamal-erosa-bb3829271/)
-
-👤 **José De La Rosa**
-
-- GitHub: [@jrraul4](https://github.com/jrraul4)
-- Twitter: [@josedelarosa_1](https://twitter.com/joserauldelaro1)
-- LinkedIn: [José De La Rosa](https://www.linkedin.com/in/jose-raul-de-la-rosa-98aa70265/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,8 +159,9 @@ If you like this project, I would like to invite you to show your support for th
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-I would like to first thank the team and the platform as such at Microverse for making this fun, enjoyable and useful phase of a whole path of preparation towards world-class professionalism and training. also to the people, coding partners, guides and everyone who in one way or another has contributed to the advancement of the entire program. thank you so much!!!
+First of all, I'd like to thank the team and the platform itself at Microverse for making this phase fun, enjoyable, and helpful on the whole path of preparation towards professionalism and world-class training.
+I would also like to thank the excellent Cindy Shin for her incredible work and input.
+Finally, I also want to thank the people, coding partners, guides and everyone who in one way or another has contributed to the advancement of the entire program. thank you so much!!!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
