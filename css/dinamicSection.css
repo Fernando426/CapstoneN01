@@ -13,6 +13,15 @@
   padding: 20px;
 }
 
+.featureSpeakers {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
 .item {
   background-color: #f0f0f0;
   display: flex;
@@ -64,7 +73,7 @@
     grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
     grid-template-rows: 1fr 1fr 1fr;
     gap: 10px; /* Espacio entre elementos */
-    padding-top: 10%;
+    padding-top: 3%;
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -133,8 +142,7 @@
 
   .parthnerSection h2 {
     color: #8f8f91;
-    font-size: 1rem;
-    margin-bottom: 2.5rem;
+    font-size: 2rem;
   }
 
   .parthnerLi img {
@@ -151,6 +159,7 @@
 
   .footer {
     display: flex;
+    justify-content: space-around;
     padding: 4rem;
     width: 100%;
     background-color: #fff;
