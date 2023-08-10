@@ -36,12 +36,8 @@
 
 .textContent {
   width: 60%;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   padding-top: 0.7rem;
-}
-
-.textContent {
-  font-size: 1.5rem;
 }
 
 .textContent h5 {
@@ -62,7 +58,7 @@
     width: 100%;
     height: auto;
   }
-  
+
   .grid-section {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
@@ -72,14 +68,12 @@
     padding-left: 10%;
     padding-right: 10%;
   }
-  
-  
+
   .item {
     background-color: #f0f0f0;
     display: flex;
   }
-  
-  
+
   .img-Character {
     width: 100%;
     max-width: 140px;
@@ -90,36 +84,30 @@
     padding-left: 0.8rem;
     padding-top: 0.8rem;
   }
-  
+
   .img-Character img {
     width: 100%;
     height: 80%;
   }
-  
+
   .textContent {
     width: 60%;
     margin-left: 1rem;
     padding-top: 0.7rem;
-  }
-
-  .textContent {
     font-size: 1.5rem;
   }
-  
+
   .textContent h5 {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
     font-size: 1rem;
     color: #ec5242;
   }
-  
+
   .textContent p {
     font-size: 0.8rem;
   }
-  
 }
-
-
 
 /* ______________parthner ___________ */
 
@@ -129,56 +117,48 @@
 
 .footer {
   display: none;
-
 }
-
-
 
 @media (min-width: 768px) {
+  .parthnerSection {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    background-color: #414246;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-/* ______________parthner ___________ */
+  .parthnerSection h2 {
+    color: #8f8f91;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+  }
 
-.parthnerSection {
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-bottom: 2rem;
-  background-color: #414246;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .parthnerLi img {
+    width: 80%;
+    filter: grayscale(100%);
+  }
 
-.parthnerSection h2 {
-  color: #8F8F91;
-  font-size: 1rem;
-  margin-bottom: 2.5rem;
-}
+  .parthner-conten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
 
-.parthnerLi img {
-  width: 80%;
-  filter: grayscale(100%);
-}
+  .footer {
+    display: flex;
+    padding: 4rem;
+    width: 100%;
+    background-color: #fff;
+  }
 
-.parthner-conten {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-}
-
-
-.footer {
-  display: flex;
-  padding: 4rem;
-  width: 100%;
-  background-color: #fff;
-}
-
-.footer img {
-  filter: grayscale(100%) brightness(0);
-  width: 8rem;
-  margin-right: 10%;
-}
-
+  .footer img {
+    filter: grayscale(100%) brightness(0);
+    width: 8rem;
+    margin-right: 10%;
+  }
 }

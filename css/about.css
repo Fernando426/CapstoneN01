@@ -12,9 +12,8 @@ body {
 }
 
 .upVar {
-  background-color: rgb(61, 61, 61) ;
+  background-color: rgb(61, 61, 61);
   color: #fff;
-  display: flex;
   justify-content: flex-end;
   display: none;
 }
@@ -26,10 +25,9 @@ body {
   justify-content: space-around;
   width: 30%;
   margin-right: 10%;
-
 }
 
-.upVar a{
+.upVar a {
   text-decoration: none;
   color: #fff;
 }
@@ -55,7 +53,6 @@ header {
 
 .logo {
   width: 50%;
-  height: 23px;
   max-width: 10rem;
   height: auto;
   cursor: pointer;
@@ -74,8 +71,8 @@ header {
   font-size: 18px;
 }
 
-.nav-list :hover{
-color: #F07F7E
+.nav-list:hover {
+  color: #f07f7e;
 }
 
 .nav-list li a {
@@ -90,6 +87,31 @@ color: #F07F7E
   margin-left: 1.2rem;
 }
 
+.parthnerLi img {
+  width: 80%;
+  filter: grayscale(100%);
+}
+
+.footer2 img {
+  filter: grayscale(100%) brightness(0);
+  width: 8rem;
+  margin-right: 10%;
+}
+
+.logoAboutSection img {
+  font-size: 1.2rem;
+  width: 40%;
+  margin-bottom: 6rem;
+}
+
+.imageHistory img {
+  width: 50%;
+  height: auto;
+  margin-left: 1rem;
+  filter: brightness(1) hue-rotate(50deg);
+  margin-bottom: 4rem;
+}
+
 .mobile-navbar button img {
   border: 0;
   width: 2rem;
@@ -97,7 +119,6 @@ color: #F07F7E
 }
 
 @media (min-width: 768px) {
-
   .upVar {
     display: flex;
     position: sticky;
@@ -136,7 +157,6 @@ color: #F07F7E
 
   .nav-list {
     width: 100%;
-    /* background-color: #ffc2b7; */
     flex-direction: row;
     display: flex;
     align-items: center;
@@ -157,22 +177,19 @@ color: #F07F7E
     height: 4rem;
     padding: 0.5rem 1rem;
     border: 5px solid #ec4327;
-    background-color:#fff;
+    background-color: #fff;
     color: #ff7220;
-    font-family: Lato;
     font-size: 16px;
     font-weight: 800;
     line-height: 17px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
-
-}
+  }
 }
 
 .home-about {
   padding-top: 200px;
   background-color: #fff;
-  /* background-image: url(/images/parthner/backgroun22.png); */
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -195,7 +212,6 @@ color: #F07F7E
   font-size: 3rem;
   margin-bottom: 3rem;
   width: 100%;
-  /* max-width: 70%; */
 }
 
 .home-Description {
@@ -217,9 +233,8 @@ color: #F07F7E
   margin-bottom: 10rem;
 }
 
-
 @media (min-width: 768px) {
-  .containerBoxs{
+  .containerBoxs {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -228,7 +243,7 @@ color: #F07F7E
   }
 
   .boxs {
-    color:#ec4327;
+    color: #ec4327;
     width: 20%;
     margin-right: 0.3rem;
     margin-top: 4rem;
@@ -257,14 +272,9 @@ color: #F07F7E
 }
 
 .parthnerSection2 h2 {
-  color: #8F8F91;
+  color: #8f8f91;
   font-size: 1rem;
   margin-bottom: 2.5rem;
-}
-
-.parthnerLi img {
-  width: 80%;
-  filter: grayscale(100%);
 }
 
 .parthner-conten {
@@ -281,12 +291,6 @@ color: #F07F7E
   background-color: #fff;
 }
 
-.footer2 img {
-  filter: grayscale(100%) brightness(0);
-  width: 8rem;
-  margin-right: 10%;
-}
-
 /* ______________parthner ___________ */
 
 @media (min-width: 768px) {
@@ -295,7 +299,7 @@ color: #F07F7E
   }
 
   .footer2 {
-    background-color: #2E2E2E;
+    background-color: #2e2e2e;
     color: #fff;
     display: flex;
   }
@@ -330,13 +334,6 @@ color: #F07F7E
   text-align: center;
 }
 
-.logoAboutSection img {
-  font-size: 1.2rem;
-  width: 40%;
-  margin-bottom: 6rem;
-}
-
-
 .historySection {
   background-color: #fff;
   display: flex;
@@ -359,12 +356,4 @@ color: #F07F7E
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.imageHistory img {
-  width: 50%;
-  height: auto;
-  margin-left: 1rem;
-  filter: brightness(1) hue-rotate(50deg);
-  margin-bottom: 4rem;
 }
